@@ -273,4 +273,9 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <modules>
+        <module>joe-demo</module>
+        <module>joe-commons</module>
+    </modules>
 </project>
