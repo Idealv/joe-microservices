@@ -10,19 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.joe</groupId>
-    <artifactId>rocketmq-transactional</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>rocketmq-demo</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-
-        <!-- rocketMQ -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-stream-rocketmq</artifactId>
-        </dependency>
-    </dependencies>
+    <modules>
+        <module>consumer</module>
+        <module>producer</module>
+        <module>rocketmq-transactional</module>
+    </modules>
 </project>

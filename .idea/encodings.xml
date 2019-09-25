@@ -2,5 +2,18 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-commons/joe-log-spring-boot-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/logback-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/rocketmq-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/rocketmq-demo/consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/rocketmq-demo/producer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/rocketmq-demo/rocketmq-transactional" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/comsumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/joe-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/joe-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/joe-provider" charset="UTF-8" />
   </component>
 </project>
