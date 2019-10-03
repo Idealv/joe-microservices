@@ -45,7 +45,9 @@ public class UserRepositoryTest {
 
     @Test
     public void test(){
-        String encode = passwordEncoder.encode("123456");
-        System.out.println(encode);
+
+        String token = "{bcrypt}$2a$10$9PO3UdLCmGsJ.h6C9BcX0OXrC7Ptmb7TwOY1FF5pIFknn.a82eheS";
+        boolean matches = passwordEncoder.matches("123456",token);
+        System.out.println("matches = " + matches);
     }
 }

@@ -12,14 +12,13 @@ import java.util.Map;
 
 @Configuration
 public class DefaultPasswordEncoderConfig {
-//    @Bean
-//    public PasswordEncoder passwordEncoder() {
-//        return PasswordEncoderFactories.createDelegatingPasswordEncoder();
-//    }
-
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        return NoOpPasswordEncoder.getInstance();
+        DelegatingPasswordEncoder delegatingPasswordEncoder =
+                (DelegatingPasswordEncoder) PasswordEncoderFactories.createDelegatingPasswordEncoder();
+        //设置defaultPasswordEncoderForMatches为NoOpPasswordEncoder
+        delegatingPasswordEncoder.setDefaultPasswordEncoderForMatches(NoOpPasswordEncoder.getInstance());
+        return  delegatingPasswordEncoder;
     }
 }
