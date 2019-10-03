@@ -12,5 +12,11 @@
     <groupId>com.joe</groupId>
     <artifactId>joe-api</artifactId>
 
-
+<!--    <dependencies>-->
+<!--        <dependency>-->
+<!--            &lt;!&ndash;            <groupId>org.springframework.cloud</groupId>&ndash;&gt;-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-dubbo</artifactId>-->
+<!--        </dependency>-->
+<!--    </dependencies>-->
 </project>

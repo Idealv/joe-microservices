@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: ${joe.datasource.username}
+    password: ${joe.datasource.password}
+    url: jdbc:mysql://${joe.datasource.ip}:3306/oauth-center?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull
+

@@ -1,0 +1,16 @@
+server:
+  port: 8088
+
+joe:
+  nacos:
+    server-addr: 127.0.0.1:8848
+spring:
+  application:
+    name: uaa-server
+  cloud:
+    nacos:
+      config:
+        server-addr: ${joe.nacos.server-addr}
+        file-extension: yaml
+      discovery:
+        server-addr: ${joe.nacos.server-addr}

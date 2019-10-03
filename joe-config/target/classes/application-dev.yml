@@ -1,0 +1,11 @@
+joe:
+  datasource:
+    ip: 127.0.0.1
+    username: root
+    password: admin123456
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    timeout: 5000

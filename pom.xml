@@ -277,5 +277,7 @@
     <modules>
         <module>joe-demo</module>
         <module>joe-commons</module>
+        <module>joe-uaa</module>
+        <module>joe-config</module>
     </modules>
 </project>

@@ -7,17 +7,15 @@
         <groupId>com.joe</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <description>通用组件</description>
-    <modules>
-        <module>joe-log-spring-boot-starter</module>
-        <module>joe-common-temp</module>
-    </modules>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.joe</groupId>
-    <artifactId>joe-commons</artifactId>
+    <artifactId>joe-config</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+    </dependencies>
 </project>
