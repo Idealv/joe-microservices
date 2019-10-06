@@ -17,6 +17,7 @@
         <module>joe-provider</module>
         <module>joe-consumer</module>
         <module>joe-api</module>
+        <module>joe-sentinel</module>
     </modules>
 
 </project>

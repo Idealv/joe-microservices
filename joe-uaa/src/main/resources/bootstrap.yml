@@ -1,9 +1,8 @@
-server:
-  port: 8088
-
+# 配置后续使用常量
 joe:
   nacos:
     server-addr: 127.0.0.1:8848
+
 spring:
   application:
     name: uaa-server

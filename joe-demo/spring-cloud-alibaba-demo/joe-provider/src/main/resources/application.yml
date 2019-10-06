@@ -3,11 +3,11 @@ server:
 spring:
   application:
     name: joe-provider
-dubbo:
-  scan:
-    base-packages: com.joe.provider.service
-  protocol:
-    name: dubbo
-    port: -1
-  registry:
-    address: spring-cloud://localhost
+#dubbo:
+#  scan:
+#    base-packages: com.joe.provider.service
+#  protocol:
+#    name: dubbo
+#    port: -1
+#  registry:
+#    address: spring-cloud://localhost

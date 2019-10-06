@@ -24,6 +24,8 @@ public class ConsumerApplication {
         public String hello(){
             return providerService.hello("xiaoming");
         }
+
+
     }
 
 

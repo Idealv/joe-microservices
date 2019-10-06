@@ -10,7 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.joe</groupId>
-    <artifactId>joe-consumer</artifactId>
+    <artifactId>joe-sentinel</artifactId>
+    <packaging>jar</packaging>
+
 
     <dependencies>
         <dependency>
@@ -27,22 +29,10 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        <!-- dubbo starter -->
-        <dependency>
-            <!--            <groupId>org.springframework.cloud</groupId>-->
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-dubbo</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.joe</groupId>
-            <artifactId>joe-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <!-- sentinel -->
+
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
         </dependency>
     </dependencies>
-
 </project>

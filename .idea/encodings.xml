@@ -16,6 +16,7 @@
     <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/joe-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/joe-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/joe-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/joe-demo/spring-cloud-alibaba-demo/joe-sentinel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/joe-uaa" charset="UTF-8" />
   </component>
 </project>
