@@ -11,5 +11,6 @@ spring:
       config:
         server-addr: ${joe.nacos.server-addr}
         file-extension: yaml
+        shared-dataids: uaa-server.yml
       discovery:
         server-addr: ${joe.nacos.server-addr}
