@@ -9,10 +9,10 @@
         <module name="joeprovider" />
         <module name="joe-log-spring-boot-starter" />
         <module name="logback-demo" />
-        <module name="joecommontemp" />
         <module name="joesentinel" />
-        <module name="joeapi" />
         <module name="joeuaa" />
+        <module name="joeapi" />
+        <module name="joecommontemp" />
         <module name="producer" />
         <module name="joeconsumer" />
         <module name="rocketmq-transactional" />
